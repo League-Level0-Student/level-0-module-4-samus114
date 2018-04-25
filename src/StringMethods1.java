@@ -7,13 +7,13 @@ public class StringMethods1 {
 	public static void main(String[] args) {
 		
 		// 1. Create a String variable and initialize it to whatever you want
-
+String name = "Samson";
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
-		
+System.out.println(name.charAt(2));
 		// 3. Print the length of your String to the console.
 		//    HINT: .length
-
+System.out.println(name.length());
 		// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
 
